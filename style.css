@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #515076;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+  background-image: url("images/dandelion-background-image.png");
+  background-size: 790 px 697px;
+  background-repeat: no-repeat;
+  background-position: 21px 0px;
+}
+
+.product-card {
+  background-color: #f5f5f5;
+  padding: 25px;
+  width: 290px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.main-title {
+  text-align: center;
+  margin: 220px 132px;
+  margin-bottom: 100px;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.skin-type {
+  font-size: 12px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.card-description {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.card-compound {
+  padding: 5px 0;
+  margin: 0;
+}
