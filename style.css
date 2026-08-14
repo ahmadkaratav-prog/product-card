@@ -5,90 +5,57 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   color: #515076;
-}
-
-.container {
-  width: 1110px;
   margin: 0 auto;
+  width: 1100px;
 }
 
-.title {
-  font-size: 70px;
-  line-height: 78px;
-  text-align: center;
-  font-weight: 400;
-}
-
-.catalog__container {
-  padding-top: 220px;
-  background-image: url("dandelion-background-image.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: 790px 697px;
-}
-
-.catalog__title {
-  margin-bottom: 110px;
-}
-
-.products {
+.product-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 45px;
+  background-image: url("images/dandelion-background-image.png");
+  background-size: 790 px 697px;
+  background-repeat: no-repeat;
+  background-position: 21px 0px;
 }
 
-.card {
-  width: 340px;
-  background-color: #F7F7FA;
+.product-card {
+  background-color: #f5f5f5;
   padding: 25px;
+  width: 290px;
 }
 
-.card__category {
-  display: block;
-  line-height: 24px;
-  margin-top: 30px;
-  color: #A5A3B9;
-  margin-bottom: 5px;
+.product-card img {
+  width: 100%;
 }
 
-.card__name {
-  font-size: 20px;
-  line-height: 27px;
-  margin-bottom: 5px;
+.main-title {
+  text-align: center;
+  margin: 220px 132px;
+  margin-bottom: 100px;
+  font-size: 70px;
+  font-weight: 400;
 }
 
-.card__description {
-  line-height: 18px;
-  margin-bottom: 15px;
+.skin-type {
+  font-size: 12px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0;
 }
 
-.compound__name {
-  display: block;
-  padding-bottom: 5px;
+h2 {
+  margin: 0;
 }
 
-.compound__list li {
-  padding-left: 3px;
-  margin-bottom: 5px;
-  list-style-position: inside;
+.card-description {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin: 0;
 }
 
-.card__compound {
-  margin-bottom: 25px;
-}
-
-.card__price-block {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card__price {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.card__value {
-  font-size: 20px;
-  line-height: 24px;
+.card-compound {
+  padding: 5px 0;
+  margin: 0;
 }
